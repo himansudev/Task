@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Task_MovieFetch_API_Task_MovieFetch_APIUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Task_MovieFetch_API_Task_MovieFetch_APIUITests
+@end

@@ -1,0 +1,78 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AppwiseCore/Common (1.2.2)
+  - AppwiseCore/Core (1.2.2):
+    - Alamofire (~> 4.8)
+    - AppwiseCore/Common
+    - CocoaLumberjack/Swift (~> 3.6)
+    - CodableAlamofire (~> 1.1)
+    - Sentry
+    - Then (~> 2.6)
+  - AppwiseCore/CoreData (1.2.2):
+    - AppwiseCore/Common
+    - AppwiseCore/Core
+    - Groot (~> 3.0)
+  - CocoaLumberjack/Core (3.6.1)
+  - CocoaLumberjack/Swift (3.6.1):
+    - CocoaLumberjack/Core
+  - CodableAlamofire (1.1.2):
+    - Alamofire (~> 4.0)
+  - Groot (3.0.1):
+    - Groot/Swift (= 3.0.1)
+  - Groot/Swift (3.0.1)
+  - IBAnimatable (6.0.0)
+  - PaginationTracker (1.0.2):
+    - PaginationTracker/Core (= 1.0.2)
+    - PaginationTracker/CoreData (= 1.0.2)
+  - PaginationTracker/Core (1.0.2):
+    - Alamofire (~> 4.8)
+    - StatefulUI
+  - PaginationTracker/CoreData (1.0.2):
+    - AppwiseCore/CoreData
+    - PaginationTracker/Core
+  - Reusable (4.1.1):
+    - Reusable/Storyboard (= 4.1.1)
+    - Reusable/View (= 4.1.1)
+  - Reusable/Storyboard (4.1.1)
+  - Reusable/View (4.1.1)
+  - Sentry (4.5.0):
+    - Sentry/Core (= 4.5.0)
+  - Sentry/Core (4.5.0)
+  - StatefulUI (1.0.3):
+    - IBAnimatable
+    - Reusable
+  - Then (2.6.0)
+
+DEPENDENCIES:
+  - PaginationTracker (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AppwiseCore
+    - CocoaLumberjack
+    - CodableAlamofire
+    - Groot
+    - IBAnimatable
+    - PaginationTracker
+    - Reusable
+    - Sentry
+    - StatefulUI
+    - Then
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AppwiseCore: 5d50fa8ffcff2856b668aec133444b4fbd26d920
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
+  CodableAlamofire: b7adfb2e5e980392014b4b3f3b8b62c01b9de4aa
+  Groot: a668afbcf0be88d76c0a26c714cfa4638ceaca66
+  IBAnimatable: d49f9fee0c401b5b08d31b77256b77fb067e0e92
+  PaginationTracker: ceda867f3ef0374a2934919048a71e63c1c4313d
+  Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
+  Sentry: ab6c209f23700d1460691dbc90e19ed0a05d496b
+  StatefulUI: cab5727ed27ffe648b47302e7ccacd8dd2d2b07d
+  Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
+
+PODFILE CHECKSUM: 348fc47f940502532b8e8b03490632bb1e08eebb
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Task_MovieFetch_API' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Task_MovieFetch_API
+
+  target 'Task_MovieFetch_APIUITests' do
+    # Pods for testing
+  end
+pod "PaginationTracker", "~> 1.0"
+end

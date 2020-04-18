@@ -1,0 +1,6 @@
+framework module PaginationTracker {
+  umbrella header "PaginationTracker-umbrella.h"
+
+  export *
+  module * { export * }
+}

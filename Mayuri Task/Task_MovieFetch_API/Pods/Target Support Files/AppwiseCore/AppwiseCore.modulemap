@@ -1,0 +1,6 @@
+framework module AppwiseCore {
+  umbrella header "AppwiseCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

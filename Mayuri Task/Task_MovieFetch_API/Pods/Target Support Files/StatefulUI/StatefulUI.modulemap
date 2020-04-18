@@ -1,0 +1,6 @@
+framework module StatefulUI {
+  umbrella header "StatefulUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
